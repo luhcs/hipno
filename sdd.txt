@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Marcella Franco - Hipnose</title>
+        <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body id="home">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a href="#home"><img class="img-fluid me-4 ms-4" style="max-width: 40px;" src="assets/img/shield.png" href="#home"></a>
+                <a class="navbar-brand" href="#home">MARCELLA FRANCO</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#beneficios">Beneficios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#clinica">Clínica</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contatos">Contatos</a></li>
+                        <li class="nav-item" id="wpp"><a class="nav-link" href="https://api.whatsapp.com/send?phone=5511947036917&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20hipnose%20cl%C3%ADnica!%20%F0%9F%98%84" target="_blank"><i class="fab fa-whatsapp" style="color: rgb(16, 209, 16) ; font-size: 19px; transform: translateY(8%)"></i> Fale com a terapeuta!</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="mx-auto my-0 text-uppercase">Hipnose</h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5"><b class="intro-bold">Domine</b> seu passado, medos e inseguranças.<br> Dê um salto para a <b class="intro-bold">liberdade</b>, <b class="intro-bold">auto-conhecimento</b> e <b class="intro-bold">inteligência emocional!</b></h2>
+                        <a class="btn btn-primary" href="#sobre">Agende uma consulta!</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-center" id="sobre">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4">O que é hipnose?</h2>
+                        <p id="about-text" class="text-justify text-white-50">
+                            A hipnose, também conhecida como hipnoterapia ou sugestão hipnótica, é um estado semelhante ao transe no qual você aumenta o foco e a concentração. A hipnose geralmente é feita com a ajuda de um terapeuta usando repetição verbal e imagens mentais. <br> Quando você está sob hipnose, geralmente se sente calmo e relaxado, e está mais aberto a sugestões.
+A hipnose pode ser usada para ajudá-lo a obter controle sobre comportamentos indesejados ou para ajudá-lo a lidar melhor com a ansiedade ou a dor. É importante saber que, embora você esteja mais aberto a sugestões durante a hipnose, você não perde o controle sobre seu comportamento.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 ">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fa-solid fa-kit-medical mb-2" id="medkit" style="font-size: 25px;"></i>
+                                <h4 class="text-uppercase m-0">O que é possivel tratar com hipnose?</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50" >A hipnoterapia pode ser um método eficaz para lidar com o estresse e a ansiedade. Em particular, a hipnose pode reduzir o estresse e a ansiedade, atuar ativamente no tratamento de dependencia química, vícios, maus hábitos , traumas e fobias. Também auxilia a destravar limitações e inseguranças. </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fa-solid fa-brain mb-2" id="medkit" style="font-size: 25px;"></i>
+                                <h4 class="text-uppercase m-0">É seguro? Eu perco o controle sobre mim?</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">É seguro, o estado de transe não é o mesmo que sono profundo. No transe, a pessoa fica extremamente concentrada em algo específico, mas não está dormindo. No estado de transe, o paciente é capaz de conduzir seus pensamentos e consegue lembrar de tudo que ouviu e falou. </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fa-solid fa-street-view mb-2" id="medkit" style="font-size: 25px;"></i>
+                                <h4 class="text-uppercase m-0">Não consigo ir até a clinica, o tratamento pode ser feito a distância?</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">Sim! Com as facilidades que a tecnologia nos proporciona, atualmente o tratamento pode ser feito a distância e ja há pacientes que optam por essa modalidade. Vale salientar que no tratamento por chamada, deve-se estar em um ambiente confortavel e calmo. </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+
+                
+            </div>
+        </section>
+        <section class="benef-section bg-light" id="beneficios">
+            <div class="content px-5 py-5">
+            <div id="title"><h2>Benefícios da Hipnose</h2><i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
+            <div class="container">
+                <div class="row justify-content-center">
+            <div class="card my-4 mx-4" style="width: 18rem;">
+                <img src="./assets/img/card-01.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><b>Auto-conhecimento</b></h5>
+                  <p class="card-text">Por meio da hipnose, é possivel entender quem é você e qual o seu propósito!</p>
+                  <div class="card-footer"><a href="#" class="btn btn-card">Quero me conhecer!</a></div>
+                </div>
+              </div>
+              <div class="card my-4 mx-4" style="width: 18rem;">
+                <img src="./assets/img/card-02.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><b>Flexibilidade</b></h5>
+                  <p class="card-text">A hipnose busca tratar a raíz do problema diretamente no subconsciente.</p>
+                  <div class="card-footer"><a href="#" class="btn btn-card">Quero melhorar!</a></div>
+                </div>
+              </div>
+              <div class="card my-4 mx-4" style="width: 18rem;">
+                <img src="./assets/img/card-03.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><b>Vícios</b></h5>
+                  <p class="card-text">Possuímos tecnicas personalizadas para tratamento de vícios.</p>
+                  <div class="card-footer"><a href="#" class="btn btn-card">Quero me livrar!</a></div>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Sobre a clinica -->
+        <section class="projects-section bg-light" id="clinica">
+            <div class="container px-4 px-lg-5">
+                <!-- Fotos e descrições -->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/demo-ibta1.jpg" alt="fachada" /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>A Clínica</h4>
+                            <p class="text-black-50 mb-0">Nossa clinica está localizada na região central de Paulínia e conta com uma infraestrutra completa e acolhedora, para melhor atender os pacientes.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project One Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-ibta02.jpg" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Consultório</h4>
+                                    <p class="mb-0 text-white-50">O consultório possui uma decoração aconchegante e pensada especialmente no bem-estar dos nossos pacientes.</p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Two Row-->
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-ibta2.jpg" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Agende uma visita!</h4>
+                                    <p class="mb-0 text-white-50">Conheça o nosso espaço e tire todas as suas duvidas sobre o tratamento.</p>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="signup-section" id="signup">
+            
+        </section>
+        <!-- Contact-->
+        <section class="contact-section bg-black" id="contatos">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Localização</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50"><div class="mapouter"><div class="gmap_canvas"><iframe width="284" height="284" id="gmap_canvas" src="https://maps.google.com/maps?q=Av.%20Arist%C3%B3teles%20Costa,%20122%20-%20Jardim%20dos%20Calegaris,%20Paul%C3%ADnia%20-%20SP,%2013140-082&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org"></a><br><style>.mapouter{position:relative;text-align:right;height:284px;width:284px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:284px;width:284px;}</style></div></div><br>Av. Aristóteles Costa, 122 - Jardim dos Calegaris, Paulínia - SP, 13140-082 <a style="text-decoration: none;" href="https://ul.waze.com/ul?place=ChIJs0RKaV-VyJQRTU1JuQg0Yk0&ll=-22.75922200%2C-47.15758130&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" target="_blank"><i class="fa-brands fa-waze mt-2" style="font-size: 45px; margin-right: 10px; color: teal; transform: translateY(25%);"></i>Venha com Waze!</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Email</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50"><a href="#!">cellamarcella90@gmail.com</a></div>
+                                <hr class="my-4 mx-auto" />
+                                <h4 class="text-uppercase m-0">Ou</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="form-group">
+                                    <form class="form" method="POST" action="./email.php">
+                                        <input class="form-control mt-3" name="name" placeholder="Nome Completo">
+                                        <input class="form-control mt-3" name="email" placeholder="E-mail">
+                                        <textarea class="form-control mt-3" name="message" placeholder="Digite sua mensagem aqui.":></textarea>
+                                        <input class="btn btn-secondary teal mt-3" type="submit" value="Enviar">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-30">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Telefones</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="medium text-black-50"><i class="fab fa-whatsapp" style="color:rgb(16, 209, 16); margin-right: 5px; font-weight: bold;"></i>+55 (11) 9 4703-6917 <br><i class="fa fa-phone-square" style="font-weight: bold; color: teal; margin-right: 5px;" aria-hidden="true"></i>+55 (19) 3844-8316</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" style="color: lightcoral" href="https://www.instagram.com/marcellafranco.terapeuta/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="mx-2" style="color: rgb(32, 120, 178)"href="https://www.facebook.com/marcellafranco.terapeuta" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" style="color: #1DA1F2" href="#!"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Marcella Franco, 2022.<br>Desenvolvido por <a href="https://luhcs.vercel.app/" target="_blank" style="text-decoration: none;">Luhcs Co.</a></div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="scripts.js"></script>
+    </body>
+</html>
