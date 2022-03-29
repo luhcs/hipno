@@ -33,10 +33,13 @@
         crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://maps.google.com/" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com/" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet" />
     <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap"
         rel="stylesheet" />
     <link href="styles.css" rel="stylesheet" />
 </head>
@@ -48,7 +51,8 @@
             <a href="#home"><img class="img-fluid me-4 ms-1" style="max-width: 40px; -webkit-filter: drop-shadow(0.5px 0.5px 4px #222);
                 filter: drop-shadow(0.5px 0.5px 4px #222);" title="IBTA - Instituto Brasileiro de Terapias Alternativas" src="assets/img/shield.png"
                     href="#home"></a>
-            <a class="navbar-brand" href="#home" title>MARCELLA FRANCO</a>
+            <a class="navbar-brand" href="#home" id="title-brand">MARCELLA FRANCO</a>
+    
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -264,7 +268,7 @@
                             </div>
                             <div class="card-footer"><a
                                     href="https://api.whatsapp.com/send?phone=5511947036917&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20hipnose%20cl%C3%ADnica%20para%20prosperar!%20%F0%9F%98%84"
-                                    target="_blank" class="btn btn-card" style="width: 222px">Quero<br>vencer!</a></div>
+                                    target="_blank" class="btn btn-card">Quero<br>vencer!</a></div>
                         </div>
                     </div>
                 </div>
@@ -289,7 +293,7 @@
             </div>
             <!-- Clinica row1-->
             <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-ibta02.jpg" title="IBTA - Consultório" alt="..." /></div>
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-ibta01.jpg" title="IBTA - Consultório" alt="..." /></div>
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
@@ -304,8 +308,8 @@
                 </div>
             </div>
             <!-- Clinica row2-->
-            <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-ibta2.jpg" title="IBTA - Consultório de anamnese" alt="..." /></div>
+            <div class="row gx-0 justify-content-center"  id="clinicarow02">
+                <div class="col-lg-6"><img class="img-fluid" id="clinica02" src="assets/img/demo-ibta02.jpg" title="IBTA - Consultório de anamnese" alt="..." /></div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
@@ -341,24 +345,27 @@
                             <div class="small text-black-50 px-2"
                                 style="display: flex; flex-direction: column; align-items: center;">
                                 <div class="mapouter">
-                                    <div class="gmap_canvas"><iframe width="284" height="284" id="gmap_canvas"
+                                    <div class="gmap_canvas"><iframe title="Google Maps" width="284" height="284" id="gmap_canvas"
                                             src="https://maps.google.com/maps?q=Av.%20Arist%C3%B3teles%20Costa,%20122%20-%20Jardim%20dos%20Calegaris,%20Paul%C3%ADnia%20-%20SP,%2013140-082&t=&z=17&ie=UTF8&iwloc=&output=embed"
-                                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                                            href="https://putlocker-is.org"></a><br>
+                                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
                                         <style>
                                             .mapouter {
                                                 position: relative;
                                                 text-align: right;
-                                                height: 284px;
-                                                width: 284px;
+                                                height:100%;
+                                                max-height: 284px;
+                                                width: 100%;
+                                                max-width: 284px;
                                             }
                                         </style>
                                         <style>
                                             .gmap_canvas {
                                                 overflow: hidden;
                                                 background: none !important;
-                                                height: 284px;
-                                                width: 284px;
+                                                height:100%;
+                                                max-height: 284px;
+                                                width: 100%;
+                                                max-width: 284px;
                                             }
                                         </style>
                                     </div>
@@ -412,11 +419,11 @@
 
                 <div class="social d-flex justify-content-center">
                     <a class="mx-2" style="color: lightcoral" href="https://www.instagram.com/marcellafranco.terapeuta/"
-                        target="_blank"><i class="fab fa-instagram"></i></a>
+                        target="_blank" name="Instagram"><i class="fab fa-instagram"></i></a>
                     <a class="mx-2" style="color: rgb(32, 120, 178)"
-                        href="https://www.facebook.com/marcellafranco.terapeuta" target="_blank"><i
+                        href="https://www.facebook.com/marcellafranco.terapeuta" target="_blank" name="Facebok"><i
                             class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" style="color: #1DA1F2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="mx-2" style="color: #1DA1F2" href="#!" name="Twitter"><i class="fab fa-twitter"></i></a>
                 </div>
             </div>
     </section>

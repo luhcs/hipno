@@ -1,8 +1,5 @@
 @charset "UTF-8";
-@font-face {
-  font-family: Sacramento, cursive;
-  src: url(https://fonts.googleapis.com/css2?family=Sacramento&display=swap);
-}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -3266,6 +3263,7 @@ body {
   text-shadow: 1px, 1px, 4px, #000;
 }
 .benef-section {
+  display:block;
   padding: 5rem 0;
   align-items: center;
 }
@@ -3274,7 +3272,8 @@ body {
 }
 .btn-card {
   color: #fff;
-  max-width: auto;
+  width: 100%;
+  max-width: 222px;
   max-height: auto;
   background-color: #5f9ea0;
   border-color: #009494;
@@ -3290,6 +3289,7 @@ body {
 .masthead #chevrondown {
   display: flex;
   flex-direction: column;
+  font-size: 24px;
   justify-content: center;
   position: relative;
   vertical-align: middle;
@@ -3317,5 +3317,27 @@ body {
     text-shadow: 1px 1px 2px #ddd;
   }
 }
+#title-hid{
+  display: none;
+}
+
+@media(max-width: 376px){
+  #beneficios .card-content{
+    margin-bottom: 70px;
+
+  }
+}
+@media(max-width: 336px){
+ #title-brand {
+    font-size: 10px;
+  }
+}
 
 
+
+@media(max-width: 310px){
+  #beneficios .card-content{
+    margin-bottom: 33vh;
+
+  }
+}
