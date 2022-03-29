@@ -3100,7 +3100,7 @@ body {
       rgba(0, 0, 0, 0.7) 75%,
       #000 100%
     ),
-    url(assets/img/bg-masthead.jpg);
+    url(assets/img/bg-masthead.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -3194,7 +3194,7 @@ body {
       rgba(0, 0, 0, 0.5) 75%,
       #000 100%
     ),
-    url(assets/img/bg-signup.jpg);
+    url(assets/img/bg-signup.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
